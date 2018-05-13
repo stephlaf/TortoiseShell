@@ -11,12 +11,45 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  /* width: 100%; */
-
 }
 
 .container {
   max-width: 960px;
-  height: auto;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  position: relative;
+  top: 1rem;
+  border: 2px solid blue;
+}
+.logobox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+  border: 2px solid orange;
+}
+.logoimage {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+span {
+  color: white;
+  font-size: 1rem;
+}
+nav {
+  margin: 1rem 0 1rem 0;
+  border: 2px solid orange;
+}
+.links {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  padding: 1rem 0;
 }
