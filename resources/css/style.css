@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4rem;
+
+}
+
+header {
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* width: 100%; */
+
+}
+
+.container {
+  max-width: 960px;
+  height: auto;
+}
