@@ -2,7 +2,15 @@ body {
   font-family: Helvetica;
   font-size: 18px;
   line-height: 1.4rem;
-
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  padding: 1.5rem 5rem;
+}
+h2 {
+  font-size: 1rem;
 }
 
 header {
@@ -16,7 +24,7 @@ header {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .menu {
@@ -26,17 +34,20 @@ header {
   background-color: cadetblue;
   position: relative;
   top: 1rem;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .logobox {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 1rem 0 1rem 0;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
 }
 .logoimage {
   height: 1.5rem;
+  /* padding: 0 1rem 0 2rem; */
+}
+#logo-white{
   padding: 0 1rem 0 2rem;
 }
 span {
@@ -45,11 +56,77 @@ span {
 }
 nav {
   margin: 1rem 0 1rem 0;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
 }
 .links {
   color: white;
   text-decoration: none;
   margin-right: 2rem;
   padding: 1rem 0;
+}
+.slogan {
+  display: inline-block;
+  position: relative;
+  top: 10rem;
+  right: -2rem;
+  float: right;
+  background-color: white;
+}
+.characteristiczzz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  /* border: 2px solid red; */
+}
+.charateristic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 0 3rem;
+  /* border: 2px solid blue; */
+}
+.img {
+  width: 3.5rem;
+  height: auto;
+}
+.char_text {
+  text-align: center;
+}
+.infoz {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid purple; */
+
+}
+.info {
+  width: 35%;
+  margin: 0 5%;
+  /* border: 1px solid magenta; */
+
+}
+.subject {
+  width: 10rem;
+  background-color: cadetblue;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  background-color: azure;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5rem;
+  /* border: 1px solid black; */
+}
+#logo-black{
+  /* height: 1.5rem; */
+  padding: 0 1rem 0 0;
+  margin: 4rem 0;
 }
