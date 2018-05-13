@@ -24,7 +24,7 @@ header {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .menu {
@@ -34,7 +34,7 @@ header {
   background-color: cadetblue;
   position: relative;
   top: 1rem;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
 }
 .logobox {
   display: flex;
@@ -130,7 +130,37 @@ nav {
   /* border: 1px solid black; */
 }
 #logo-black{
-  /* height: 1.5rem; */
   padding: 0 1rem 0 4rem;
   margin: 4rem 0;
+}
+
+@media only screen and (max-width: 900px) {
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  border: 2px solid orange;
+}
+header {
+  height: 22rem;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  position: relative;
+  top: 0rem;
+  border: 2px solid magenta;
+}
+.slogan {
+  top: 5rem;
+  right: 2rem;
+}
+h1 {
+  font-size: 1.33rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  padding: 0.75rem 4rem;
+  border: 1px dotted black;
+}
 }
